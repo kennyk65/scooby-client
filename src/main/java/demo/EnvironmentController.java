@@ -12,7 +12,7 @@ public class EnvironmentController {
 	String thing = "nothing set";
 	
 	
-	@RequestMapping("/env")
+	@RequestMapping("/hi")
 	public @ResponseBody String env() {
 		return thing;
 	}
